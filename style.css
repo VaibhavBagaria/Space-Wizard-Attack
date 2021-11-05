@@ -1,0 +1,102 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.nav navbar-nav {
+	list-style: none;
+	font-family: 'Lobster', cursive;
+	float: left;
+	Position:fixed;
+	top: 0px;
+	right: 30px;
+	z-index: 99999;
+	cursor: pointer;
+	color: aqua;
+}
+
+
+.links {
+    float: left;
+    color: black;
+    padding-left: 6px;
+    padding-right: 5px;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.links:hover {
+    color: aqua;
+    background-color: blueviolet;
+}
+
+
+.heading {
+    width: 100%;
+}
+
+.heading h2 {
+    display: inline;
+}
+
+.heading button {
+    float: right;
+}
+
+.background_img {
+    width: 100%;
+}
+
+#play_btn {
+    font-size: 22px;
+}
+
+#footer {
+    background-color: orange;
+    color: red;
+    float: none;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+.modal-dialog {
+    width: 90%;
+}
+
+.Instruction_IMG {
+    display: inline-block;
+    width: 30px;
+}
+
+#Bio {
+    background: linear-gradient(lightblue 0%, yellow 100%);
+    height: 150px;
+}
+
+p {
+    font-size: 40px;
+}
+
+#canvas {
+    padding-bottom: 150px;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+#contact {
+    background-color: orangered;
+}
+
+.contact1 h3 {
+    display: inline;
+}
+
+.contact1 a {
+    color: white;
+    text-shadow: none;
+}
